@@ -1,0 +1,449 @@
+
+.first-fixed {
+    background-color:  rgb(234, 234, 237);
+    height: 1.50rem; /* Add a height to make it visible */
+    padding: 10px; /* Add some padding for content */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-fixed p{
+    font-size: 1rem;
+    margin-left: 0.5rem;
+
+
+}
+.bold{
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 0.2rem;
+}
+.line{
+    margin-left: 0.5rem;
+}
+.a{
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    text-decoration: underline;
+    color: black;
+}
+.fixed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secound-fixed {
+    background-color: white ;
+    height: 50px; /* Add a height to make it visible */
+    padding: 10px; /* Add some padding for content */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boat img{
+    margin-top: 1rem;
+    position: relative;
+    height: 60px;
+    width: 100px;
+    border-radius: 30px;
+}
+.burger i{
+    font-size: 30px;
+    margin-top: 1rem;
+    padding-left: 2rem;
+    opacity: 0.7;
+
+}
+.last-boat i{
+    font-size: 20px;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    opacity: 0.7;
+}
+.first-image{
+    height: 700px;
+    width: 100%;
+}
+.first-image img{
+    height: 700px;
+    width: 100%;
+    margin-top: 1rem;
+}
+.cardspack{
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+
+.emi{
+    background-color: rgb(213, 210, 17);
+    height: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+.emi p{
+    margin-left: 6rem;
+}
+.emi img{
+    height:40px;
+    width: 35px;
+    margin-left: 6rem;
+    border-radius: 30px;
+    
+}
+.emi i{
+    margin-left: 6rem;
+}
+/*.logo{
+    background-color:  rgb(234, 234, 237);
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo2{
+    display: flex;
+}
+.logo3{
+    display: flex;
+}
+.logo4{
+    display: flex;
+}
+.logo1{
+    display: flex;
+}
+.logo1 img{
+    margin-left: 2rem;
+}
+.logo1 p{
+    margin-right: 2rem;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+}*/
+.logo{
+    background-color: rgb(208, 206, 206);
+    height: 50px;
+    padding: 10px;
+    display: flex; /* This is key! */
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between; /* This will distribute space evenly between direct flex items */
+}
+.logo2{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem; /* This is also key! */
+}
+.logo3{
+    display: flex;
+    gap: 1rem; 
+    margin-top: 1rem;/* This is also key! */
+}
+.logo4{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem; /* This is also key! */
+}
+.logo1{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem; /* This is also key! */
+}
+.logo2 img{
+    border-radius: 30px;
+}
+.logo3 img{
+    border-radius: 30px;
+}
+.logo4 img{
+    border-radius: 30px;
+}
+.logo1 img{
+    margin-left: 2rem;
+    border-radius: 30px; /* Applies margin to the image */
+}
+.logo1 p{
+    margin-right: 2rem;
+    font-size: 1rem; /* Applies margin to the paragraph */
+}
+.logo img{ /* This rule targets ALL images within .logo, potentially overriding .logo1 img */
+    height: 60px;
+    width: 60px;
+}
+
+/*.card{
+    background-color: rgb(251, 127, 255);
+    height: 500px;
+    padding: 10px;
+}
+.cardtext{
+    display: flex;
+    justify-content: baseline;
+    margin-left: 1rem;
+    gap: 1rem;
+}
+.cards{
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    padding-right: 3rem;
+    margin-right: 40px;
+}
+.cards img{
+    height: 50px;
+    width: 50px;
+}*/
+.card{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    padding: 10px;
+    display: flex; /* Make the parent a flex container */
+    flex-direction: column; /* Arrange children vertically, as they are now */
+    /* If you want .cardtext and .cards side-by-side, change this to row, and adjust accordingly */
+    align-items: flex-start; /* Align items to the start of the cross axis (left for column) */
+    /* Add a gap for spacing between the .cardtext and .cards if desired */
+    gap: 1rem;
+}
+
+
+.cardtext{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    margin-left: 2rem;
+    gap: 1rem;
+    /* No need for specific width if it wraps naturally */
+}
+.cards{
+    margin-left: 7rem;
+}
+.cards img{
+    height: 200px;
+    width: 300px;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+}
+.yellow{
+    background-color: yellow;
+    width: 300px;
+    height: 30px;
+    margin-left: 1.25rem;
+    display: flex;
+    justify-content: center;
+}
+.yellow p{
+    margin-top: 0.5rem;
+}
+.cards p{
+    margin-left: 1.5rem;
+}
+.cards .Rockerz{
+    margin-left: 6rem;
+}
+
+.explore{
+    margin-top: 60px;
+}
+.explore-prime{
+     background-color: rgb(255, 255, 255);
+     margin-top: -0.5rem;
+    height: 500px;
+    width: 1460px;
+    padding: 10px;
+    display: flex; /* Make the parent a flex container */
+    flex-direction: column; /* Arrange children vertically, as they are now */
+    /* If you want .cardtext and .cards side-by-side, change this to row, and adjust accordingly */
+    align-items: flex-start; /* Align items to the start of the cross axis (left for column) */
+    /* Add a gap for spacing between the .cardtext and .cards if desired */
+    gap: 1rem;
+}
+.in-the-press h1{
+    margin-left: 1rem;
+}
+
+
+
+.in-the-press{
+     background-color: rgb(255, 255, 255);
+    height: 550px; /* Add a height to make it visible */
+    padding: 10px; /* Add some padding for content */
+
+}
+.one{
+    appearance: none;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 20px;
+    margin-left: 1rem;
+}
+.two{
+    appearance: none;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 20px;
+    margin-left: 1rem;
+
+}
+.blogscart img{
+    height: 200px;
+    width: 400px;
+
+}
+.blogscart{
+    background-color:bisque;
+    height: 400px;
+    width: 400px;
+    margin-top: 2rem;
+}
+.march{
+    opacity: 0.7;
+}
+.readme{
+    margin-left: 2rem;
+    appearance: none;
+    border-radius: 30px;
+    width: 300px;
+}
+.lasts{
+    margin-left: 0.5rem;
+}
+.bolds{
+    margin-left: 0.5rem;
+}
+.march{
+    margin-left: 0.5rem;
+}
+
+.felx {
+    display: flex;
+    /* Remove flex-wrap if you want them strictly in a row and the parent is wide enough */ /* Align items to the top if they have different heights */
+    gap: 20px; /* Space between the items */
+    /* Add a specific width if the parent is not expanding naturally to fit its content */
+    /* For example, if .in-the-press has a fixed width that's too small */
+    /* width: 900px; */ /* Adjust this based on your layout needs */
+    margin-left: 4rem;
+}
+.cards{
+    background-color: bisque;
+}
+.inpress{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    
+}
+.lastdiv {
+    display: flex;
+    flex-direction: row;
+    
+    /* Remove height: 200px; */ /* <--- REMOVE THIS LINE */
+    width: 1500px; /* Keep width if needed */
+    gap: 20px; /* Add some gap between the divs */
+    align-items: flex-start; /* Optional: align items to the top if their content heights differ */
+    /* If you want the parent to grow with the tallest child, you don't need a fixed height here. */
+}
+
+.om {
+    background-color: bisque;
+    height: 300px;
+    /* Allow content to define height */
+    flex: 1; /* Optional: Make it take up available space equally with other flex items */
+    padding: 20px; /* Add padding for content spacing */
+    box-sizing: border-box; /* Include padding in the width */
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.om img{
+    height: 100px;
+    width: 450px;
+    margin-top: 5rem;
+}
+
+.ankit {
+    background-color: bisque;
+    flex: 1; /* Optional: Make it take up available space equally */
+    padding: 20px;
+    box-sizing: border-box;
+    height: 300px;
+    margin-right: 1rem;
+}
+.ankit i{
+    margin-left: 20rem;
+    margin-top: 2rem;
+}
+.ankit p{
+    margin-top: 2rem;
+}
+.inthepress{
+    margin-left: 2rem;
+}
+.lastsection{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.lastsection1{
+    background-color: lightblue;
+    height: 500px;
+    width: 700px;
+}
+.lastsection1 img{
+    height: 10rem;
+    width: 15rem;
+    margin-left: 10rem;
+    margin-top: 4rem;
+
+}
+.lastsection2{
+    background-color: lightblue;
+    height: 500px;
+    width: 270px;
+}
+.lastsection2 p{
+    margin-top: 4.5rem;
+    line-height: 2px;
+}
+.lastsection3 p{
+    margin-top: 4rem;
+    line-height: 2px;
+}
+.lastsection3{
+    background-color: lightblue;
+    width: 270px;
+
+}
+.lastsection4{
+    background-color: lightblue;
+    width: 270px;
+}
+.lastsection4 p{
+    margin-top: 5rem;
+    line-height: 1px;
+}
+.lastsection1 h1{
+    margin-left: 5rem;
+}
+.sahaj{
+    margin-left: 5rem;
+    appearance: none;
+    border-radius: 30px;
+    width: 25rem;
+
+}
